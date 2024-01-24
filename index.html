@@ -4,23 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="assets/styles/style.css">
+  <link rel="stylesheet" href="assets/styles/mobile.css">
+  <link rel="stylesheet" href="assets/styles/desktop.css" media="only screen and (min-width: 900px)">
   <title>Frontend Mentor | Recipe page</title>
 </head>
 <body>
   <header class="header">
     <img class="header__image" src="assets/images/image-omelette.jpeg" alt="Omelette">
-    <h1 class="header__title">Simple Omelette Recipe</h1>
-    <p class="text">
-      An easy and quick dish, perfect for any meal. This classic
-      omelette combines beaten eggs cooked to perfection,
-      optionally filled with your choice of cheese, vegetables,
-      or meats.
-    </p>
+    <section class="header__text">
+      <h1 class="header__title">Simple Omelette Recipe</h1>
+      <p class="text">
+        An easy and quick dish, perfect for any meal. This classic
+        omelette combines beaten eggs cooked to perfection,
+        optionally filled with your choice of cheese, vegetables,
+        or meats.
+      </p>
+    </section>
   </header>
 
   <main class="main">
-    <section class="PreparationTime">
+    <section class="preparationTime">
       <h2 class="preparationTime__title">Preparation time</h2>
       <ul class="list list_rose">
         <li class="listItem">
@@ -45,8 +48,6 @@
         </li>
       </ul>
     </section>
-
-  <hr class="horizontalLine">
 
     <section class="mainContent">
       <article class="recipe">
@@ -80,11 +81,13 @@
         </ul>
       </article>
 
+  <hr class="horizontalLine">
+
       <article class="recipe">
         <h2 class="recipe__title">Instructions</h2>
 
-        <ol class="list list-numbered">
-          <li class="listItem">
+        <ol class="list">
+          <li class="listItem listItem_numbered">
             <span class="bullet bullet_number">1.</span>
             <span class="itemContent">
               Beat the eggs: In a bowl, beat the eggs with a pinch
@@ -93,7 +96,7 @@
             </span>
           </li>
 
-          <li class="listItem">
+          <li class="listItem listItem_numbered">
             <span class="bullet bullet_number">2.</span>
             <span class="itemContent">
               Heat the pan: Place a non-stick frying pan over medium
@@ -101,7 +104,7 @@
             </span>
           </li>
 
-          <li class="listItem">
+          <li class="listItem listItem_numbered">
             <span class="bullet bullet_number">3.</span>
             <span class="itemContent">
               Cook the omelette: Once the butter is melted and bubbling,
@@ -110,7 +113,7 @@
             </span>
           </li>
 
-          <li class="listItem">
+          <li class="listItem listItem_numbered">
             <span class="bullet bullet_number">4.</span>
             <span class="itemContent">
               Add fillings (optional): When the eggs begin to set at
@@ -120,7 +123,7 @@
             </span>
           </li>
 
-          <li class="listItem">
+          <li class="listItem listItem_numbered">
             <span class="bullet bullet_number">5.</span>
             <span class="itemContent">
               Fold and serve: As the omelette continues to cook,
@@ -130,7 +133,7 @@
             </span>
           </li>
 
-          <li class="listItem">
+          <li class="listItem listItem_numbered">
             <span class="bullet bullet_number">6.</span>
             <span class="itemContent">
               Enjoy: Serve hot, with additional salt and pepper if needed.
@@ -152,7 +155,7 @@
 
     <table class="table">
       <tr class="table__line">
-        <th scope="row">Calories</th>
+        <th class="table__header" scope="row">Calories</th>
         <td class="table__data">277kcal</td>
       </tr>
 
