@@ -130,18 +130,31 @@ body {
   border-collapse: collapse;
 }
 
-.table__header, .table__data {
+.table__row {
   border-bottom: 1px solid var(--lightGrey);
+}
+
+.table__row_noBorder {
+  border: none;
+}
+
+.table__header, .table__data {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.table__header_noBorder, .table__data_noBorder {
+  padding-bottom: 0px;
 }
 
 .table__header {
   font-weight: 400;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-left: 32px;
   text-align: left;
 }
 
 .table__data {
   color: var(--nutmeg);
   font-weight: 600;
+  padding-right: 32px;
 }
