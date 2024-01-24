@@ -25,7 +25,7 @@ body {
   flex-direction: column;
   font-family: var(--outfit);
   font-size: 16px;
-  min-height: 100vh;
+  min-height: 1995px;
 }
 
 .header {
