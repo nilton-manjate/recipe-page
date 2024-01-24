@@ -33,7 +33,7 @@ BEM, a methodology designed to create clearer, modular, and maintainable CSS cod
 
 ### Useful resources
 
-- [official documentation and resources provided by the BEM community.](https://en.bem.info/) - On the official website, you'll find comprehensive documentation, guides, and examples to help you understand and implement BEM in your projects.
+- [Official documentation and resources provided by the BEM community.](https://en.bem.info/) - On the official website, you'll find comprehensive documentation, guides, and examples to help you understand and implement BEM in your projects.
 
 ## Author
 
